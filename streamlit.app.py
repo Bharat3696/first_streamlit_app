@@ -5,7 +5,7 @@ streamlit.title('This is my sample code')
 
 streamlit.header('Footaball')
 streamlit.text(' 🐔 PSG Messi 30')
-streamlit.text(':goat: MANU CR7 07')              
+streamlit.text(''🍌 MANU CR7 07')              
 streamlit.text(':racehorse: PSG Neymar 10')               
 
 

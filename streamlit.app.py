@@ -33,6 +33,12 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 streamlit.dataframe(fruits_to_show)
 
 import requests 
+               
+               
+               def insert_row_snowflake(new_fruit):
+with my_cnx.cursor() as my_cur:
+my_cur.execute("insert in fruit_load_list values ('from streamlit')")
+return "Thanks for adding " + new_fruit
 
 import snowflake.connetor
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
